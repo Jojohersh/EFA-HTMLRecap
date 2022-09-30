@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Quiz</title>
+</head>
+<body>
+    <nav style="text-align: right;">
+        <a href="">Company Home</a>
+        <a href="">About Us</a>
+    </nav>
+    <main>
+        <header>
+            <h1 style="text-align:center">Today's Video</h1>
+            <p>You are asked to watch the video below and submit your answers to the following quiz. Results will be distributed between 3 to 500 business days</p>
+        </header>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yYAw79386WI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            <form action="">
+                <fieldset>
+                    <legend>submission ID</legend>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+                <fieldset>
+                    <legend>Question 1</legend>
+                    <label for="q1">How many spokes are recommended?</label>
+                    <input type="text" name="q1" id="q1">
+                </fieldset>
+                <fieldset>
+                    <legend>Question 2</legend>
+                    <p>If we look at any given wheel, what change should we make to the amount of it's spokes?</p>
+                    <input type="radio" name="q2a1" id="q2a1">
+                    <label for="q2a1">Less Spokes</label>
+                    <input type="radio" name="q2a2" id="q2a2">
+                    <label for="q2a2">Absolutely no more and no less amount of spokes than is currently available in said wheel</label>
+                    <input type="radio" name="q2a3" id="q2a3">
+                    <label for="q2a3">More spokes</label>
+                </fieldset>
+                <br>
+                <button type="submit">Submit Quiz</button>
+            </form>       
+        </div>
+    </main>
+    <footer style="text-align: center; background-color:#d3d3d3">
+        <p>Copyright © 1942 Spoke Enterprises</p>
+        <p>
+            <a href="#about">About Us</a>
+            <a href="#policy">Policy</a>
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
+</body>
+</html>
